@@ -5,23 +5,23 @@ export type TeamMember = {
   image: string | null;
   linkedin: string;
   email: string;
-  prominence: "president" | "vice" | "core";
+  prominence: "lead" | "vice" | "core";
 };
 
 export const teamMembers: TeamMember[] = [
   {
-    id: "president",
+    id: "lead",
     name: "MUHAMMAD SUFYAN JURA",
-    role: "President",
+    role: "Lead",
     image: "/images/team/LEAd.jpg",
     linkedin: "https://www.linkedin.com/in/muhammadsufyanjura47/",
     email: "mailto:sufyanfaizan47@gmail.com",
-    prominence: "President",
+    prominence: "Lead",
   },
   {
-    id: "vice-president",
+    id: "vice-lead",
     name: "BEHROZ ABBAS KHAN",
-    role: "Vice President",
+    role: "Vice Lead",
     image: "/images/team/vice-lead.jpg",
     linkedin: "https://www.instagram.com/behrozspamz_",
     email: "mailto:behrozabbaskhan@gmail.com",
@@ -65,6 +65,6 @@ export const teamMembers: TeamMember[] = [
   },
 ];
 
-export const leadMember = teamMembers.find((member) => member.prominence === "president");
+export const leadMember = teamMembers.find((member) => member.prominence === "lead");
 export const viceLeadMember = teamMembers.find((member) => member.prominence === "vice");
 export const coreLeads = teamMembers.filter((member) => member.prominence === "core");
