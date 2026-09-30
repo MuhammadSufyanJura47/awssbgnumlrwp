@@ -30,7 +30,7 @@ export function TeamCard({ member }: { member: TeamMember }) {
       </div>
       <div className="mt-5 text-center">
         <p className="inline-flex rounded-full bg-brand-soft px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-dark">
-          {isLead ? "Lead / President" : member.role}
+          {member.role}
         </p>
         <h3 className={`mt-3 font-semibold text-brand-deep ${isLead ? "text-2xl" : "text-lg"}`}>
           {member.name}

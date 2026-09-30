@@ -12,7 +12,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "lead",
     name: "MUHAMMAD SUFYAN JURA",
-    role: "Lead",
+    role: "President",
     image: "/images/team/LEAd.jpg",
     linkedin: "https://www.linkedin.com/in/muhammadsufyanjura47/",
     email: "mailto:sufyanfaizan47@gmail.com",
@@ -21,7 +21,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "vice-lead",
     name: "BEHROZ ABBAS KHAN",
-    role: "Vice Lead",
+    role: "Vice President",
     image: "/images/team/vice-lead.jpg",
     linkedin: "https://www.instagram.com/behrozspamz_",
     email: "mailto:behrozabbaskhan@gmail.com",

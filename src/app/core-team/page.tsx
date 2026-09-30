@@ -7,7 +7,7 @@ import { createMetadata } from "@/lib/seo";
 export const metadata = createMetadata({
   title: "Core Team — AWS Student Builder Group NUML Rawalpindi",
   description:
-    "Meet the core team of AWS Student Builder Group at NUML Rawalpindi, including the Lead, Vice Lead, and function leads.",
+    "Meet the core team of AWS Student Builder Group at NUML Rawalpindi, including the President, Vice President, and function leads.",
   path: "/core-team",
 });
 
