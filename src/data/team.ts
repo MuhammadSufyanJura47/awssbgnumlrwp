@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
     image: "/images/team/LEAd.jpg",
     linkedin: "https://www.linkedin.com/in/muhammadsufyanjura47/",
     email: "mailto:sufyanfaizan47@gmail.com",
-    prominence: "Lead",
+    prominence: "lead",
   },
   {
     id: "vice-lead",
