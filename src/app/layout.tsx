@@ -45,6 +45,9 @@ export const metadata: Metadata = {
   creator: siteConfig.organization,
   publisher: siteConfig.organization,
   alternates: { canonical: siteConfig.siteUrl },
+  verification: {
+    google: "sc6ncL0bz3HzCjxEjkxI0KNGGsNnXNWc9DzyZaQC-UU",
+  },
   category: "technology",
   formatDetection: {
     email: false,
