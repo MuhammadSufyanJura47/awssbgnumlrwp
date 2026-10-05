@@ -10,6 +10,18 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+const repositoryLanguageComposition = [
+  { name: "TypeScript", percent: 54.6 },
+  { name: "JavaScript", percent: 37.1 },
+  { name: "CSS", percent: 8.3 },
+];
+
+const repositoryMetadata = {
+  repo: "MuhammadSufyanJura47/awssbgnumlrwp",
+  repoId: "1391136843",
+  languageComposition: repositoryLanguageComposition,
+};
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -78,6 +90,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="relative flex min-h-full flex-col font-sans">
+        <script
+          type="application/json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(repositoryMetadata),
+          }}
+        />
         <JsonLd />
         <LoadingScreen />
         <SplashCursor RAINBOW_MODE={false} COLOR="#147a44" />
