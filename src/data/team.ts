@@ -40,7 +40,7 @@ export const teamMembers: TeamMember[] = [
     id: "creative-lead",
     name: "Chaudhary Ashar Nawaz",
     role: "Creative & Media Lead",
-    image: "/images/team/creative-lead.jpg",
+    image: "/images/team/creative-lead1.jpg",
     linkedin: "https://www.linkedin.com/in/%DA%86%D9%88%DB%81%D8%AF%D8%B1%DB%8C-%D8%B9%D8%A7%D8%B4%D8%B1-%D9%86%D9%88%D8%A7%D8%B2-%D9%86%D9%88%D8%A7%D8%B2-1983b53b5/",
     email: "nawazashar803@gmail.com",
     prominence: "core",
