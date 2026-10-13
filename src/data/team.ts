@@ -29,11 +29,11 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "marketing-lead",
-    name: "Your Name",
+    name: "ABDUL REHMAN",
     role: "Marketing & Growth Lead",
     image: "/images/team/marketing-lead.jpg",
     linkedin: "https://linkedin.com/in/your-profile",
-    email: "your.email@example.com",
+    email: "mailto:ar0574200@gmail.com",
     prominence: "core",
   },
   {
@@ -47,11 +47,11 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "outreach-lead",
-    name: "Your Name",
+    name: "RAJA HASSNAIN ABID",
     role: "Outreach & Partnerships Lead",
     image: "/images/team/outreach-lead.jpg",
-    linkedin: "https://linkedin.com/in/your-profile",
-    email: "your.email@example.com",
+    linkedin: "https://www.instagram.com/itx.rajahassnain999/",
+    email: "mailto:umeralikayani999@gmail.com",
     prominence: "core",
   },
   {
