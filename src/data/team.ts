@@ -29,11 +29,11 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "marketing-lead",
-    name: "ABDUL REHMAN",
+    name: "TBD",
     role: "Marketing & Growth Lead",
-    image: "/images/team/marketing-lead.jpg",
+    image: "/images/team/marketing-lead11.jpg",
     linkedin: "https://linkedin.com/in/your-profile",
-    email: "mailto:ar0574200@gmail.com",
+    email: "mailto:",
     prominence: "core",
   },
   {
