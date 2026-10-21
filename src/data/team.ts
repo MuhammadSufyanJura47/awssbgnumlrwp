@@ -29,11 +29,11 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "marketing-lead",
-    name: "TBD",
+    name: "Uroofa Rajpoot",
     role: "Marketing & Growth Lead",
     image: "/images/team/marketing-lead11.jpg",
-    linkedin: "https://linkedin.com/in/your-profile",
-    email: "mailto:",
+    linkedin: "https://www.instagram.com/uroofa_r?mdxt=eGpsM255dWdjNzZs",
+    email: "mailto:ranauroofa@gmail.com",
     prominence: "core",
   },
   {
