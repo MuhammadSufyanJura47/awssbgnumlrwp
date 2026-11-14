@@ -16,6 +16,9 @@ export function PartnerCard({ partner }: { partner: PartnerItem }) {
       <div className="flex flex-1 flex-col p-5">
         <div className="flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-brand-soft px-2.5 py-1 text-xs font-semibold text-brand-dark">
+            {partner.partnershipLevel}
+          </span>
+          <span className="rounded-full border border-line px-2.5 py-1 text-xs text-muted">
             {partner.category}
           </span>
           {partner.tags.map((tag) => (
