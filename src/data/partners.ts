@@ -17,8 +17,8 @@ export const partners: PartnerItem[] = [
     partnershipLevel: "Silver Partner",
     category: "Technology Partner",
     logo: "/images/partners/codelogixsolutions/logo.png",
-    tags: ["AI", "Generative AI", "Web Development", "MERN Stack", "Ethical Hacking", "Digital Marketing"],
-    description: "CODELOGIX Solutions is a Pakistan-based EdTech and digital services company. Based in Rawalpindi, it focuses on making practical, career-ready technology education affordable and accessible.",
+    tags: ["Generative AI", "Web Development"],
+    description: "CODELOGIX Solutions is a Pakistan-based EdTech and digital services company.",
     website: "https://codelogixsolutions.vercel.app/",
   },
 
@@ -28,8 +28,8 @@ export const partners: PartnerItem[] = [
     partnershipLevel: "Gold Partner",
     category: "Technology Partner",
     logo: "/images/partners/datacampdonates/logo.png",
-    tags: ["AI", "Generative AI", "SQL", "ML", "Python", "Data Science"],
-    description: "DataCamp Donates is a global initiative that provides free access to DataCamp's learning platform for individuals and organizations in need. It aims to empower learners with data skills and promote data literacy worldwide.",
+    tags: ["Python", "Data Science"],
+    description: "DataCamp Donates is a global initiative that provides free access to DataCamp's learning platform for student clubs and non profit organizations.",
     website: "https://app.datacamp.com/",
   },
 
