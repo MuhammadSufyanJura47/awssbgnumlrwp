@@ -15,7 +15,7 @@ export const partners: PartnerItem[] = [
     name: "CODELOGIX Solutions",
     partnershipLevel: "Silver Partner",
     logo: "/images/partners/codelogixsolutions/logo.png",
-    tags: ["Generative AI", "Web Development"],
+    tags: ["Generative AI", "Web Dev"],
     description: "CODELOGIX Solutions is a Pakistan-based EdTech company.",
     website: "https://codelogixsolutions.vercel.app/",
   },
