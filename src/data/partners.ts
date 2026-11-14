@@ -16,7 +16,7 @@ export const partners: PartnerItem[] = [
     partnershipLevel: "Silver Partner",
     logo: "/images/partners/codelogixsolutions/logo.png",
     tags: ["Generative AI", "Web Development"],
-    description: "CODELOGIX Solutions is a Pakistan-based EdTech and digital services company.",
+    description: "CODELOGIX Solutions is a Pakistan-based EdTech company.",
     website: "https://codelogixsolutions.vercel.app/",
   },
 
@@ -26,7 +26,7 @@ export const partners: PartnerItem[] = [
     partnershipLevel: "Gold Partner",
     logo: "/images/partners/datacampdonates/logo.png",
     tags: ["Python", "Data Science"],
-    description: "DataCamp Donates is a global initiative that provides free access to DataCamp's learning platform for student clubs and non profit organizations.",
+    description: "DataCamp Donates is a New York based company",
     website: "https://app.datacamp.com/",
   },
 
